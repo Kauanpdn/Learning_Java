@@ -31,5 +31,44 @@ public class Variavel {
         // 5 -> Char 
         char letra = 'M';
         System.out.println(letra);
+
+        // 6 -> Int 
+        int n = 42;
+        System.out.println(n);
+        System.out.println(n + 4);
+        System.out.println(n / 2);
+
+        int soma = n + 100;
+        System.out.println(soma);
+
+        // 7 -> Long 
+        long populaçãoMundial = 78000000000000000L;
+        System.out.println(populaçãoMundial);
+        long grandeNumero = 100_000_000_000_000_0000L;
+        System.err.println(grandeNumero);
+
+        // 8 -> Double
+        double preco = 19.99;
+        System.out.println(preco);
+        System.out.println(preco + 10);
+        System.out.println(preco / 2);
+        System.out.println(preco - 12);
+
+        double pi = 3.147_592_123;
+        System.out.println(pi);
+        
+        double doubleComD = 60.99D;
+        System.out.println(doubleComD);
+
+        // 9 -> Operadores aritmético
+        System.out.println(50 + 50);
+        System.out.println(100 - 2);
+        System.out.println(2 * 10);
+        System.out.println(500 / 2);
+        System.out.println(10 % 4);
+
+        // Para ter um número quebrado (1.5), pelo menos 1 númeoro da divisão tem que ser double 
+        System.out.println(10.0 / 3); /*ex: 3.3333333333333335 */
+        
     }
 }
