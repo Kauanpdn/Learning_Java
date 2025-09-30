@@ -70,5 +70,57 @@ public class Variavel {
         // Para ter um número quebrado (1.5), pelo menos 1 númeoro da divisão tem que ser double 
         System.out.println(10.0 / 3); /*ex: 3.3333333333333335 */
         
+        // 10 -> Operadores aritmético part 2 
+        int a = 5;
+        a++;
+        System.out.println(a);
+        
+        int b = 5;
+        a--;
+        System.out.println(b);
+
+        int c = 10;
+        c += 5; //Ele ppega o primeiro valor dado e adiciona mais o valor indicado nessa linha 
+        System.out.println(c); 
+
+        int d = 10;
+        d -= 5; //Ele pega o primeiro valor e subtrai por esse 
+        System.out.println(d);
+
+        System.out.println(c - d);
+
+        // 11 -> Type Casting
+        int numero2 = 42;
+        long numeroLong = numero2;
+
+        double numeroDouble = numero2;
+
+        System.out.println(numeroLong);
+        System.out.println(numeroDouble);
+
+        // Explícito (narrowing)
+        double valorDouble = 9.78;
+        int valorInt = (int) valorDouble;
+        System.out.println(valorInt);
+
+        char letraA = 'A';
+        int codigoChar = (int) letraA;
+        System.out.println(codigoChar);
+
+        // 12 -> Constantes
+        final int DIAS_DA_SEMANA = 7;
+        System.out.println("Dias da semana:  " + DIAS_DA_SEMANA);
+
+        // 13 -> Infência de tipos (var)
+        var z = 10;
+        System.out.println(z);
+
+        z = 5;
+        System.out.println(z);
+
+        var text0 = "test";
+        System.out.println(text0);
+                
+
     }
 }

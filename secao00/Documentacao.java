@@ -45,11 +45,27 @@ public class Documentacao {
          * Multiplicação (*): Multiplicação de dois valores;
          * Divisão(/): Divisão de um valor pelo outro ;
          * Módulo (%): Resto da divisão de dois valores;
+         * Icremento (++): invcrementa o valor de uma várialve em 1;
+         * Decremento (--): Decrementa o valor de uma variável em 1;
+         * Atribuição aditiva(+=): Subtrai e atribiu o resultado a uma variavel
          * 
+         *              Type casting 
+         * Casting implícito (widening): converte automaticamen te tipos menores para tipos maiores (por exemplo,int para long), sem perda de dados;
+         * Casting explícito (narrowing): necessário quando se converte tipos maiores para tipos menores (por exemplo,double para int), podemos resultar em perda de dados;
+         * Para realizar um casting explícito, é necessário especificar o tipo destino entre parêntese;           
          * 
+         *              Constantes
+         * final: Define uma variável como constante, impedindo que seu valor seja alterado após a inicialização;
+         * Uma ves atribuído, o valor nõa pode ser modificado;
+         * Boas práticas: Usando para valores que não devem mudar durante a execução do programa, como PI ou taxas de juros
+         * Conversão de nnomes: Constantes geralmente são nomeadas em letras maiúsculas, com palavras separadas por sublinados(_);
          * 
-         * 
-         * 
+         *              Inferência de tipo com var em Java
+         * var: Introduzido no java 10, permite ao compilador inferir o tipo da variável com base no valor atribuido;
+         * Reduz a necessidade de escrever tipos longos e complexos, aumentando a legibilidade do código;
+         * Tipo estático: Embora o tipo seja inferido, ele é fico após a atrubuição e não pode ser alterado
+         * Regras: deve ser inicializado no momento da declaração, e não pode ser usado para variável não inicializadas
+         * Boas práticas: Útil para tipos complexos ou quando o tipo é óbivo a partir do contexto; 
          * */;
     }
 }
