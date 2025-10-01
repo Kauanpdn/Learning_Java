@@ -66,6 +66,34 @@ public class Documentacao {
          * Tipo estático: Embora o tipo seja inferido, ele é fico após a atrubuição e não pode ser alterado
          * Regras: deve ser inicializado no momento da declaração, e não pode ser usado para variável não inicializadas
          * Boas práticas: Útil para tipos complexos ou quando o tipo é óbivo a partir do contexto; 
-         * */;
+         * 
+         *              A classe Scanner
+         * A classe Scanner é utilizada para ler a entrada de dados do usuário via console/terminal
+         * Parte do pacote java.util: para usar o Scanaer, é necessário importar a classe do pacote java.util;
+         * Scanner pode ler diferentes tipos de dados, como int,double,String, etc;
+         * Métodos comuns:
+         *          nextLine() lê uma linha inteira de texto 
+         *          nextInt() lê um valor inteiro
+         *          nextDouble() lê um valor decimal (ponto flutuante)
+         *          next() lê uma única palavra 
+         * 
+         *              Fechamento de Scanner 
+         * O Scanner consome recursos de entradda,como fluxo de dados do teclado;
+         * Fechar o Scanner libera esses recursos, evitando problemas de perfomace;
+         * Deixar o Scanner aberto pode causar vazamento de memória ou travamento;
+         * close() é uma boa prática recomendada após a leitura dos dados;
+         * O fechamento do Scannet ajuda a manter a aplicação eficiente e estável;
+         * 
+         *              Problema do nextLine
+         * nextLine() lê a linha inteira até encontrar um Enter;
+         * Problema ocorre ao usar nextLine() após nextInt(), nextDouble(),etc;
+         * nextLine() captura o caractere  Enter remanescente, resultando em uma leitura vazia;
+         * Isso faz o programa parecer "pular" a entrada de texto
+         * Solução: adicionar um nextLine() extra após a leitura de números
+         * 
+         * */
+        
+        
+        ;
     }
 }
