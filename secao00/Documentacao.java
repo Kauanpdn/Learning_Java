@@ -91,6 +91,60 @@ public class Documentacao {
          * Isso faz o programa parecer "pular" a entrada de texto
          * Solução: adicionar um nextLine() extra após a leitura de números
          * 
+         * 
+         *             O que é boolean?
+         *  boolean é um tipo de dado primitivo em java que pode armazenar apenas dois valores true or false;
+         * Utilizado para controlar o fluxo de execução em estruturas de controle com if,while e for;
+         * Suporta operadores lógicos como && (AND), || (OR), ! (NOT) para combinar e inverter valores booleanos;
+         * Uma expressão booleana é qualquer expressão que resulta em um valor true or false;
+         * Emobra seja representado como true ou false no código, internamente é tratado como 1 (true ) ou 0 (false);
+         * 
+         *          Operadores de comparação 
+         *  == (igual a): Verifica se dois valores são iguais;
+         *  != (Diferente de): Verifica se á dois valores são diferentes;
+         *  > (Maior que): Verifica se o valor á esquerda é maior que o valor á direita;
+         *  < (Menor que): Verifica se o valor á esquerda é menor que o valore da direita;
+         *  >= (Maior ou igual a): Verifica se o valor `a esqueda é maior ou igual o valor `a direira;
+         *  <= (Menor ou igual a): Verifica se o valor á esquerda é menor ou igual o valor a direira;
+         * 
+         *         Difernça entre comparação e atribuição 
+         *  Atribuição (=):
+         *          -Atribuit valor a uma variável;
+         *          -Usado para defifnir ou altera o valor armazenado em uma variável;
+         *          -Exemplo: int a = 5;
+         * Comparação (==):
+         *          -Compara dois valores para verificar se são iguais;
+         *          -Retorna true sse os valores forem iguais e false se forem diferentes
+         *          -Exemplo: 5==5 retorna true;
+         * 
+         *          Comparação de strings
+         * Problema com == ;
+         * O operador ==  compara as referências de memória. não o conteúdo das strings;
+         * Pode retonrar false mesmo que o conteúdo das strigns seja igual, se referências forem diferentes;
+         * Uso do método equals():
+         * equals() compara o contéudo das strings, caractere:
+         * É a maneira correta e segura de verificar se duas strigns são iguais em valor;
+         * equalsIgnoreCase():
+         * Variante de equals() que ignora diferenças e entre maiúscula e minúsculas;
+         * 
+         *          Estrutura de condição 
+         *  if: Executa um bloco de código se a condição for verdadeira;
+         *  else: Executa um bloco de código se alternativo se a condição if for falsa;
+         *  else if: Verifica outra condição se as condições anteriores forem falsas;
+         *  switch: Seleciona e executa um bloco de código entre várias opções com base no valor de uma expressão;
+         *  Importante: Todas essas estruturas permitem controlar o fluxo de execução com base em condições lógicas
+         * 
+         *          Conhecendo o if 
+         * if executa um bloco de código se a condição for verdadeira;
+         * Coloque a condição entre parêntese após a palavra-chave if;
+         * Uso comum: comparações lógicas ou arítméticas para tomar decisões no código;
+         * Importante: O bloco de código dentro de if é delimitado por chves{};
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
          * */
         
         

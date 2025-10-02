@@ -21,6 +21,8 @@ public class MediaAluno {
         System.out.println("Informe a terceira nota: ");
         int n3 = scanner.nextInt();
 
+        scanner.close();
+
         int media =  (n1 + n2 + n3) / 3;
 
         if (media >= 7) {
