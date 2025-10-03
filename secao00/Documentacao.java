@@ -140,11 +140,46 @@ public class Documentacao {
          * Uso comum: comparações lógicas ou arítméticas para tomar decisões no código;
          * Importante: O bloco de código dentro de if é delimitado por chves{};
          * 
+         *          Explorando o else
+         * else executa um bloco de código quando a condição do if é falsa;
+         * Proporciona uma alternativa no fluxo de execução do programa;
+         * Sintaxe: O bloco else vem logo após um bloco if;
+         * Bloco único: Somente um bloco else pode seguir um if;
+         * Importante: Sempre use {} para delimitar o bloco de código do else;
          * 
+         *          Utilizando o else if
+         * else if permite testar códigos adicionais após um if;
+         * Sintaxe: Coloque a condição entre parênteses após a palavra-chave else if;
+         * Uso comum: Qunado há várias condições mutuamente exclusivas;
+         * Encadeamento: Vários blocos else if podem ser usados após um if;
+         * Bloco final opcional: Pode ser seguindo de um else para lidar com qualquer caso não coberto;
          * 
+         *          Operadores lógicos 
+         *  && (E lógico): Retorna true se ambas as condições forem verdadeiras;
+         *  || (OR lógico): Retorna true se pelo menos uma das condições for verdadeira;
+         *  !(NÃO lógico): Inverte o valor lógico: retorna true se a condição for falsa e vice-versa;
+         * Combinação: Pode combinar múltiplas condições em um única expressão lógica;
          * 
+         *         Tabela verdade
+         * A  tabela verdade simula todas as combinações possíveis dos operadores lógicos, e exibe oos resultados:
          * 
+         *  P | Q | P AND Q   -----  P | Q | P OR Q   ------ P | Q | P NOT Q
+         *  
+         *  V | V | V         -----  V | V | V        ------ V | F 
+         *  V | F | F         -----  V | F | V        ------ F | V
+         *  F | V | F         -----  F | V | V        ------
+         *  F | F | F         -----  F | F | F        ------
+         *  
+         *  * 
          * 
+         *        Operador lógico AND (&&)
+         * O operador && (AND  lógico) retorna true se ambas as condições forem verdadeiras;
+         * Sintaxe: Condição1 && Condição2;
+         * Curto-circuito: Se a primeira condição for false, a segunda condição não é avaliada;
+         * Uso comum: Combinação de múltiplas condições que precisam ser verdadeiras ao mesmo tempo; 
+         * 
+         *      Operador lógico OR (||)
+         *      Operador lógico NOT (!)
          * */
         
         

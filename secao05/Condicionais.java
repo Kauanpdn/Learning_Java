@@ -59,5 +59,36 @@ public class Condicionais {
         if (test.equals("Teste")) {
             System.out.println("O texto é Teste");
         }
+
+        // 6 -> else
+        int q = 7;
+        if (q > 10) {
+            System.out.println("q é maior que 10");
+        }else{
+            System.out.println("Insira um número maior que 10");
+        }
+        // todo else precisa de um if, mas nem if precisa de um else
+
+        if (test.equals("Teste2")) {
+            System.out.println("O texto é Teste");
+        }else{
+            System.out.println("O texto não é igual");
+        }
+
+        // 7 -> else if
+        double nota = 8.5;
+        if (nota >= 9) {
+            System.out.println("Nota muito boa");
+        }else if(nota >=7){
+                System.out.println("Acima da média");
+        }else{
+            System.out.println("Abaixo da média");
+        }
+
+        
+
+
+
+
     }
 }
