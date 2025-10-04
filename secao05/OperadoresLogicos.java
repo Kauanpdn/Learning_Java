@@ -15,5 +15,29 @@ public class OperadoresLogicos {
         if (a > 5 && b > 10) {
             System.out.println("Deu certo");
         }
+
+        // 9 -> OR
+        boolean estaChovendo = true;
+        boolean temGuardaChuva = true;
+
+        System.out.println(estaChovendo || temGuardaChuva);
+        System.out.println(false || false);
+
+        int idade2 = 16;
+        boolean ehMembro = true;
+
+        if (idade2 > 16 || ehMembro) {
+            System.out.println("Você pode entrar");
+        }else{
+            System.out.println("Entrada negada");
+        }
+
+        // 10 -> NOT
+        System.out.println(!estaChovendo);
+
+        System.out.println(!estaChovendo || !temGuardaChuva);
+
+
+
     }
 }

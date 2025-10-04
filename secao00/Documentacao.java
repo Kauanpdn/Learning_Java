@@ -179,9 +179,36 @@ public class Documentacao {
          * Uso comum: Combinação de múltiplas condições que precisam ser verdadeiras ao mesmo tempo; 
          * 
          *      Operador lógico OR (||)
+         * O operador || (OR lógico) retorna true se pelo menos uma das condições for verdadeira;
+         * Sintaxe: Condição || Condição 2;
+         * Curto-circuito: Se a primeira condição for true, a segunda condição não é avaliada;
+        //  * Uso comum: Verificação de múltiplas condições onde apenas uma precisa ser verdadeira
+
          *      Operador lógico NOT (!)
-         * */
-        
+         * O operador ! (NOT lógico) inverte o valor lógico de uma expressão
+         * Sintaxe: ! seguindo da condição ou expressão;
+         * Uso comum: Negar uma condição para tomar decisões baseadas no oposto;
+         * Útil em validações: Verificar se uma condição é falsa, ao invés de verdadeira;
+         * Combinação: pode ser combinado com outros operadores lógicos (&&,||) para criar expressões mais complexas;
+         *
+         *      Estrutua switch em java: case e break
+         * switch: Estrutura de controle que permite escolher entre várias opções com base no valor de uma exprressão
+         * case: Define uma possível opção ou caminho dentro do switch. Cada case é segudo por um valor específico que é comparado
+         *      com a expressão do switch;
+         * break: Utilizado para encerrar a execução de um bloco case. Evita que o cógido "caia" nos casos seguintes;
+         * Importante: Cada case deve terminar com um break (ou outro comando de desvio) para evitar a execução de outros casos;
+         * Valores exclusivos: Os valores em case devem ser excludivos e correspondentes ao tipo da expressão do switch;
+         * 
+         *      Estrutua switch em java: default
+         * default: O bloco default é executado quando nenhum dos valores especificados nos case corresponde á expressão do switch
+         * Opcional: O uso de default é opcional, mas recomendado para capturar todos os casos não previstos;
+         * Posição: Normalmente é colocado no final do switch, mas pode aparecer em qualquer lugar dentro do bloco;
+         * Sem brak becessário: Como default geralmente é o ultimo bloco, não é necessário usar break, mas pode ser incluído se o default não for o último;
+         * Fornece um comportamento padrão ou uma mensagem de erro quando nenhum case específico é atendido;
+         * 
+         * 
+         * 
+         *  */
         
         ;
     }
