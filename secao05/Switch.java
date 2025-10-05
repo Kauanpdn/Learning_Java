@@ -39,6 +39,25 @@ public class Switch {
             default:
                     System.out.println("Número não encontrado");
                 break;
+
+            // 13 - switch sem break 
+            
         }
+
+        switch (1) {
+                case 1:
+                    System.out.println("Executou 1");
+                    
+                case 2:
+                    System.out.println("Executou 2");
+                    
+                case 3:
+                    System.out.println("Executou 3");
+
+            
+                default:
+                    System.out.println("Executou 4");
+                
+            }
     }
 }

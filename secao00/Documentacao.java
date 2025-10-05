@@ -206,6 +206,25 @@ public class Documentacao {
          * Sem brak becessário: Como default geralmente é o ultimo bloco, não é necessário usar break, mas pode ser incluído se o default não for o último;
          * Fornece um comportamento padrão ou uma mensagem de erro quando nenhum case específico é atendido;
          * 
+         *      Switch sem breake
+         * fall-through: Sem break, o switch continua executando os blocos subsequentes, mesmo que o caso correspondete já tenha sido encontrado;
+         * Efeito inesperado: Pode levar à execução múltilpos casos,causando resultados inesperados;
+         * Necessário break: Para interromper a execução após o bloco case correspondete evitando o efeito de fall-through;
+         * Uso intecional: Em raros casos, o fall-thourgh pode ser usado intecionalmente, mas é menos comum ser break documantado;
+         * Boa prática: Sempre incluir break para previnir comportamentos indesejados a emnos que o fall-through seja intencional;
+         * 
+         *      Quando Usar if vs switch
+         * Usar if:
+         *  -Ideal para expressões booleanas simples;
+         *  -Perfeito para condições que envolvem operadores lógicos(&&,||) e comparação entre diferentes váriaveis;
+         *  -Útil quando a condição depende de um intervalo de valores(ex: x > 10);
+         *  -Útil para comparar objetos, strings com equals(), ou outras condições não númericas;
+         * Usar switch:
+         *  -Melhor para escolhher entre várias opções discretas baseadas em um único valor;
+         *  -Ideal quando você está lidando com  um conjunto limitado de valores, como enumeração ou dias da semana;
+         *  -Facilita a leitura e a manutenção há muitas opções (mais 3 ou 4 casos);
+         *  -Funciona bem com expressões baseadas em inteiros, caractere,strign ou enums;
+         * 
          * 
          * 
          *  */
