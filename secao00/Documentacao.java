@@ -225,8 +225,29 @@ public class Documentacao {
          *  -Facilita a leitura e a manutenção há muitas opções (mais 3 ou 4 casos);
          *  -Funciona bem com expressões baseadas em inteiros, caractere,strign ou enums;
          * 
+         *      Condicionais ternárias
+         * Uma forma de compacta de expressar uma condição if-else;
+         * Sintaxe: Condição ? expressão : expressão 2;
+         * Funcionamento: Avalia a condição, se for verdadeira, retorna expressão 1,caso contrário,retorna expressão 2;
+         * Ideal para atribuição simples e condições em linha;
+         * Limitação: Dever ser usado apenas em expressões simples para manter a legibilidade;
          * 
+         *      If e else aninhado 
+         * Estrutura onde um if ou else contém outro bloco if-else
+         * Uso comum: Para testar múltiplas condições que depedem umas das outras;
+         * Útil para lidar com decisões complexas, mas pode prejudicar a legibilidade se usado em exesso;
+         * Sintaxe: Blocos if e else podem conter outros if-else,criando um encadeamento de condições;
+         * Boa prática: Matenha o código claro e evite encadeamnetos profundos;
          * 
+         *      Precedência de Operadores lógicos
+         * A ordem em que os operadores lógicos e de comparação são avaliados em uma expressão
+         * Ordem de precedência:
+         *      - 1 (): Parêntese têm maior precedência e são avaliados primeiro;
+         *      - 2 !: Operador Not lógico tem a segunda maior precedência;
+         *      - 3 &&: Operador And lógico é avaliado antes de ||;
+         * '    - 4 ||: Operador Or lógico é avaliado por último:
+         * Compreender a precedência evita erros lógiicos e garante que as expressões sejam avaliadas conforme esperado;
+         * Uso de parênteses: Parênteses podem ser usados para alterar a ordem de avaliação melhorar a clareza do código;
          *  */
         
         ;
