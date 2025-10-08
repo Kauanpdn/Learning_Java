@@ -1,4 +1,4 @@
-package secao04;
+package secao04_Media_De_Nota;
 import java.util.Scanner;
 
 // Obter nome do aluno e 3 notas 

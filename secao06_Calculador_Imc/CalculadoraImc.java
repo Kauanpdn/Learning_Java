@@ -1,4 +1,4 @@
-package secao06;
+package secao06_Calculador_Imc;
 import java.util.Scanner;
 
 public class CalculadoraImc {

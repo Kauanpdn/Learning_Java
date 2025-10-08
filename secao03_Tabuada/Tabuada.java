@@ -1,4 +1,4 @@
-package secao03;
+package secao03_Tabuada;
 import java.util.Scanner;
 // Projeto Tabuada
 // Receber um número pelo scanner, exibir a tabuada do mesmo

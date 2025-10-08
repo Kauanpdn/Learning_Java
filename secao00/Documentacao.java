@@ -248,6 +248,20 @@ public class Documentacao {
          * '    - 4 ||: Operador Or lógico é avaliado por último:
          * Compreender a precedência evita erros lógiicos e garante que as expressões sejam avaliadas conforme esperado;
          * Uso de parênteses: Parênteses podem ser usados para alterar a ordem de avaliação melhorar a clareza do código;
+         * 
+         *      O que é uma função?
+         * Um bloco de código que realiza uma tareda específica e pode ser chamada para ser executado;
+         * Divide o código em partes menores, tornando-o  mais organizado e fácil de manter;
+         * Permite reutilizar código em diferentes partes do programa sem precisar reescrever as mesmas instruções;
+         * Parâmetro e retono: Pode receber dados de entrada (Parâmetros) e retornar um resultado após a execução;
+         * As variáveis declaradas dentro de uma função são locais e não afetam o restante do programa;
+         * 
+         *      Criando a primeira função
+         * Normalmente uma função Java é definida com um tipo de retorno, um nome e pode ou não receber parâmetros;
+         * A função pode ser criada sem parãmetros e sem retorno, ideal para tarefas simples que não requer entrada ou saída;
+         * Sintaxe Básica: Consiste em um cabeçalho que inclui o tipo de retorno (void para sem retorno) e o corpo da função, onde o código é executado;
+         * Chamando a função: A função é invocada pelo seu nome, e o código dentro dela é executado sempre que chamada;
+         * 
          *  */
         
         ;
