@@ -262,6 +262,33 @@ public class Documentacao {
          * Sintaxe Básica: Consiste em um cabeçalho que inclui o tipo de retorno (void para sem retorno) e o corpo da função, onde o código é executado;
          * Chamando a função: A função é invocada pelo seu nome, e o código dentro dela é executado sempre que chamada;
          * 
+         *      Difernça entre a função main e outras funções
+         * Função main:
+         *  É o ponto de entrada do programa, onde a execusão começa:
+         *  Deve ter a assinatura exta public static void main(String[] args);
+         *  Todo programa java precisa de uma função main para ser executado;
+         *  A função main pode chamar outras funçõçes e métodos dentro do programa;
+         * Outras funções:
+         *  Criadas para dividir o código em partes menores e genenciáveis
+         *  Podem ter diferentes tipos de retorno, nomes e receber parãmentros;
+         *  Podem ser chamadas várias vezes em diferentes partes do programa;
+         * São executadas apenas chamadas pelo código, ao contrário do main qye é executado automaticamente; 
+         * 
+         *     Argumentos em funções
+         * Dados que você passa para uma função ao chamá-lá, permintindo que a função processe informações específicas;
+         * Parâmetros são variáveis definidas na assinatura da função para receber os argumentos;
+         * Funções podem receber nenhum, um ou vários argumentos, dependendo da tarefa realizam;
+         * Argumentos tornam as funções mais flexíveis e reutilizáveis em diferentes contextos com dados diferentes;
+         * Tipos de argumentos: podem ser de qualquer tipo primitivo(int,double,etc) ou objetos;
+         * 
+         *     Uso do return em funções
+         * Uma instrução que finaliza a execução de uma função e, opcionalmente, devolve um valor ao ponto onde a função foi chamada;
+         * Finalização de função: Qunado o return é executado, a função para de executar, e o controle é devolvido ao chamador;
+         * Tipos de retorno: O return pode retornar valores de qualquer tipo, incluindo tipos primitivos, objetoss, ou nehum valor(void):
+         * O return permite que funções realizem cálculos ou operações e enviem o resultado de volta para ser utilizado em outras partes do programa;
+         * 
+         * 
+         * 
          *  */
         
         ;
