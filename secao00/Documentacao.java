@@ -287,9 +287,45 @@ public class Documentacao {
          * Tipos de retorno: O return pode retornar valores de qualquer tipo, incluindo tipos primitivos, objetoss, ou nehum valor(void):
          * O return permite que funções realizem cálculos ou operações e enviem o resultado de volta para ser utilizado em outras partes do programa;
          * 
+         *      Funções com x sem retorno
+         * Funçõez com retorno:
+         * Permite que uma operação seja realizada e seu resultado seja utilizado em outras partes do programa;
+         * Cálculo, validação, e operações que produzem um resultado necessário para outras funções ou partes do código;
+         * Exemplo: Calcular a soma de dois números e retornar o resultado para ser exibido ou usado em outro cálculos;
+         * Funções sem retorno:
+         * Executem uma ação sem precisar devolver um resultaddo, ideal para tarefa como exibição de dados ou alterações diretas no estado do programa;
+         * Exibir mensagem,modificar variáveis globais, ou realizar operações que não requerem um retorno:
+         * Exmplo: Exibir uma mensagem de boas-vindas ou  atualizar o valor de uma variável de controle;
          * 
+         *      Encapsulando retorno em variável
+         * O processo de armazenar o resultado de um função em uma variável para uso posterior;
+         * Permite reutilizar o valor retornado por um função em várias partes do código, aumentando a modularidade e a legibilidade;
+         * Uso comum: Armazenar resultado de cálculos, verificação ou operações complexas para evitar chamadas repetidas á mesma função;
+         * Encapsular o retorno em uma variávle pode ajudar a simplificar o código e reduzir a necessidade de executar a função;
+         *  
+         *      Funções com if/else e condicionais complexas
+         * Estruturas de controle if/else dentro de funções permitem tomar decisões complexas baseadas em múltiplas condições;
+         * Condicionais complexas: Permitem combinar múltiplas condições usando operadores lógicos (&&,||) e comparações para determinar o fluxo de execução;
+         * Uso comum: Verficição de múltiplos critérios, tomadas de decisão em processos complexos e validações de entradas de usuários;   
+         * Funções com if/else organizam e centralizam a lógica de decisão, tornando o código mais modular e fácil de manter;
+         *
+         *      Funções com switch
+         * O swit h é uma estrutura de controle que permite a execução de diferentes blocos de código com base no valor de uma expressão;
+         * O switch dentro de um função é útil quando há múltiplas condições discretas (casos) a serem verificadas,como valores inteiros, caaaracteres ou strings;
+         * Benefícios: Simplifica a lógica quando comparado a múltiplos if-else, tornando o código mais organizado e fácil de entender;
+         * Boa prática: Sempre incluir um default para tratar valores inesoerados ou casos não cobertos;
+         *  
+         *      Funções com System.exit
+         * O que é System.exit:
+         * O método System.exit(int status) encerra imediatamente a execução do programa, finalizando todas as operações em andamento;
+         * O argumento int status indica o estado do término do programa, um valor de 0 geralmente indica uma saída bem-sucedida, enquanto valores diferentes de 0 indicam erros;
+         * Como o System.exit termina o programa abruptamente, deve ser usado com cuidado normalmente em situações de erro crítico ou quando não há mais nada a ser feito;
+         * Casos de uso:
+         * Tratamento de erro: Em cenparios onde o programa não pode continuar devido a um erro crítico;
+         * Interrupção controlada: Quando o programa atinge um estado em que deve ser encerrado imediatamente, como após confirmar a saída de usuário;
+         *  
          * 
-         *  */
+         * */
         
         ;
     }

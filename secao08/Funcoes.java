@@ -11,9 +11,17 @@ public class Funcoes {
         // 3 -> Return
         dobrar(3);
 
+
+
         int numero3 = 20;
         int numeroDobrado = dobrar(numero3);
         System.out.println("O numero dobrado é: " + numeroDobrado);
+
+        // 4 - retorno em variável
+        String r1 = verificarPar(numero3);
+        String r2 = verificarPar(3);
+        System.out.println(r1);
+        System.out.println(r2);
     }
 
 
@@ -30,6 +38,16 @@ public class Funcoes {
 
     public static int dobrar (int n){
         return n * 2;
+
+    }
+
+
+    public static String verificarPar(int n){
+        if(n % 2 == 0){
+            return "O número " + n + "é par";
+        }else{
+            return "O número " + n + " não é par";
+        }
     }
 }
 
