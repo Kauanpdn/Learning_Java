@@ -324,6 +324,31 @@ public class Documentacao {
          * Tratamento de erro: Em cenparios onde o programa não pode continuar devido a um erro crítico;
          * Interrupção controlada: Quando o programa atinge um estado em que deve ser encerrado imediatamente, como após confirmar a saída de usuário;
          *  
+         *      Escopos em java
+         * Escopo refere-ser á visibilidade e ao tempo de vida de variáveis e objetos dentro de um programa;
+         * Escopo local: váriaveis declaradas dentro de métodos, blocos if,for, ou while só são acessíveis dentro desses blocos;
+         * Escopo global: Váriaveis declaradas fora de métodos, mas dentro de uma classe, são acessíveis por todos os métodos dessa classe;
+         * Escopo de parãmetro: parâmetro de função são tratados como variáveis locais dentro do escopo de função;
+         * Encapsulamento: O escopo ajuda a proteger variáveis e métodos de acessos indesejados fora do seu contexto apropriado;
+         * 
+         *      O que são funções built-in java?
+         * São funções já incorporadas na linguagem java que fornecem funcionalidades comuns e essenciais. Elas são prontas para uso e não precisam ser definidas pelo programador;
+         * Estão disponíveis automaticamente sem necessidade de importação ou definição;
+         * Para que servem: manipulação de strings, operaç~es matématicas, conversão de dados entre outras funcionalidades;
+         * Geralmente, as funções built-in são altamente otimizadas para desempenho;
+         * 
+         *      Funções built-in de strings
+         * length(): retorna o comprimento de uma string, ou seja, o número de caractere;
+         * Substring( int beginlndex, int endlndex): Extrai uma subsequência da string, começando no índice beginlndex e terminando em enindex;
+         * toUpperCase(): Converte todos os caracteres da string para letras maiúsculas;
+         * replace(char oldChar, char newChar): Substitui todas as ocorrências de uma caratere especificado por outro ;
+         * 
+         *      Funções built-in de números (Math)
+         * Math.sqet (double a): Calcula a raiz quadrada de um número; 
+         * Math.pow (double a, double b): Eleva um númeor a à potência b;
+         * Math.abs(int a): Retorna o valor absoluto de um número;
+         * Math.max(int a, int b): Retonar o maior de dois númeors;
+         * 
          * 
          * */
         
