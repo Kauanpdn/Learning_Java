@@ -349,9 +349,32 @@ public class Documentacao {
          * Math.abs(int a): Retorna o valor absoluto de um número;
          * Math.max(int a, int b): Retonar o maior de dois númeors;
          * 
+         *      Funções recursivas
+         * Recursão é a técnica onde uma função chama a si mesma para resolver um problema que pode ser dividido em subproblemas menores e semelhantes ao original
+         * Um caso base/cenário é essencial para terminar a recursão, sem ele, a função entraria em um loop infinito;
+         * Como Funciona: O problema é dividido em subproblemas menores até atingir o caso base, após o qual a solução começa a ser contruída ao 
+         * "subir" a pilha de chamadas;
+         * Pode ser ineficienete em termos de tempo e memória, especialmente para problemas grandes, devido à sobrecarga de chamadas de função
          * 
+         *      Sobrecarga de funções (method overloading)
+         * Sobrecarga de funções permite definir várias funções com o mesmo nome, desde que tenham assinaturas diferentes(números ou tipo de parâmetros);
+         * Vantagens:
+         *      Permite criar diferentes versões de uma função para lidar com diferentes tipos de dados ou diferentes quantidades de argumentos;
+         *      Mantém o código limpo e organizado, reutilizando o nome da função para tarefa relacionadas;
+         * Regras para sobrecargas:
+         *      Números de parâmetros: As funções devem defiri no númeor de parãmetros;
+         *      Tipos de parâmetros: As funções podem ter o mesmo número de parãmetros, desde que o tipo sejam diferentes;
+         *      Tipo de retorno: Não pode ser usado sozinho para diferenciar funções sobrecarreagadas;
+         * 
+         *      Funções anônimas (lambda expressions)
+         * Lambdas são funções anônimas, ou seja, funções sem nome, que podem ser usadas para expressar brevemente pequenas operações ou blocos de código, especialmetne em programção funcional;
+         * Introduzidas no java8, as lambdas são uma parte central da API Stream e permitem uma programação mais funcional;
+         * Sintaxe: Formato: (parâmetros) -> {corpo da função}
+         * Para expressões simples, o corpo da fução pode ser uma única çinha sem {}
+         * Vantagens:
+         *      Lambdas permitem escrever códigos mais conciso e legível 
+         *      São amplamente utilizadas em conjuntos com streamas e interfaces funcionais com runna e comparator;
          * */
-        
         ;
     }
 }
