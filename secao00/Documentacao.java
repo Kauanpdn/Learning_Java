@@ -374,6 +374,40 @@ public class Documentacao {
          * Vantagens:
          *      Lambdas permitem escrever códigos mais conciso e legível 
          *      São amplamente utilizadas em conjuntos com streamas e interfaces funcionais com runna e comparator;
+         * 
+         *      Estrutura de repetição
+         * O que são estruturas de repetição?
+         * Estrutura de repetição, ou loops, são comandos que permitem a execução repetida de um bloco de código enquanto uma condição específica for verdadeira;
+         * para que servem:
+         *      Automatizar a execução de tarefas repetitivas, economizar tempo e esforço ao evitar a necessidade de escrever o mesmo código várias vezes;
+         *      Permitem iterar sobre coleções de dados, realizar operações com número sequenciais, e processar entradas de forma eficiente;
+         * As mais utilizadas:
+         *      for: Ideal para quando se sabe o número exaro de interações a serem realizadas. Permite o controle de varáveis de início, condição de continuidade e incremento;
+         *      while: Executa um bloco de código enquanto uma condição é verdadeira. Útil quando o número de interações não é conhecido antecipadamente 
+         *      do-while: Similiar ao while, mas garante que o blobo de código seja executado pelo menos uma vez pois a condição é verificada após a execução
+         * 
+         *      Estrutura for
+         * for é uma estrutura de repetição que permite executar um blobo de código um número determinado de vezes;
+         * Ideal para quando se sabe o número exato de iterações;
+         * Consiste em três partes: inicialização, condição e incrementos.
+         * Oferece controle sobre o fluxo de repetição com variáveis de início e incremento;
+         * 
+         *      Estrutura de repetição while
+         * while é uma estrutura de repetiçõa que executa um bloco de código repetidamente enquanto uma condiçõa específica for verdadeira;
+         * Sintaxe: while(condição){bloco de código};
+         * Execução contínua até que uma condição seja falsa, ideial para quando o número de iteraçõess não é conhecido antecipadamente;
+         * 
+         *      Loop infinito
+         * Um loop infinito é uma estrutura de repetição que nunca termina, continuando a executar indefinidamente porque a condição de término nunca é atendida;
+         * Causas comum: Condição de saída mai definida, ausência de incremento ou decremento de variáveis de controle;
+         * Cuida: pode causar travamento do programa ou consumo execessivo de recursos exigindo atenção na implementação;
+         * 
+         *      Do while
+         * do-while é uma estrura de repetição que garante que o bloco de código seja:
+         *      executado pelo menos uma vez, verificando a condição após a execução
+         * Sintaxe do{bloco de código} while(condição);
+         * Ideal quando é necessário executar o código ao mesmo uma vez antes de verificar a condição;
+         * 
          * */
         ;
     }

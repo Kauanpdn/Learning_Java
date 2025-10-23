@@ -1,0 +1,61 @@
+package secao11;
+
+public class Loops {
+    public static void main(String[] args) {
+        // 1 - for
+
+        // loop que vai rodar de 1 a 5
+        // variáveç de inicializacao = i, j, k
+        // condicao -> determina até quantas vexes, o loop vai rodar
+        // incremento -> a variável vai chegar na condicao
+        for(int i = 1; i <= 5; i++){
+            // repetir
+            System.out.println("Contador: " + i);
+        }
+
+        // mostrar cada caractere de uma string
+        String palavra = "Java";
+
+        // length em strins da o número de letras
+        // arrays e strings a primeira posição é o 0
+        //  j -> 0
+
+        for(int i = 0; i < palavra.length(); i++){
+            System.out.println("Caractere " + palavra.charAt(i));
+        }
+
+        // Contagem regressiva
+        for(int i = 5; i > 0; i--){
+            System.out.println("contagem regressiva " + i);
+        }
+
+        // 2 - while
+        int i = 0;
+        while (i <= 5) {
+            System.out.println("While contador " + i);
+            i++;
+        }
+
+        int valor = 0;
+        while (valor != 7) {
+            valor = (int)(Math.random() * 100);
+            System.out.println("Valor aleatorio " + valor);
+        }
+
+        // 3 - loop infinito
+        // while (true) {
+        //     System.out.println("Infinito");
+        // }
+
+        // for(int j = 0; j <= 5; j--){
+        //     System.out.println(j);
+        // }
+
+        // 4 - do while
+        int j = 10;
+        do{
+            System.out.println("O valor de j é: " + j);
+            j--;
+        }while(j > 0);
+    }
+}
