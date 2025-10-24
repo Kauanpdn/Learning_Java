@@ -408,6 +408,21 @@ public class Documentacao {
          * Sintaxe do{bloco de código} while(condição);
          * Ideal quando é necessário executar o código ao mesmo uma vez antes de verificar a condição;
          * 
+         *      Break em loops 
+         * break é uma instrução usada para interroper um loop imediatamente,mesmo que a condição de término original não tenha sido atingida;
+         * Frequentemente usado para sair de loops antecepadamente quando uma condição específica é satisfeita;
+         * Termina o loop atual e continua a execução do código após o loop;
+         * 
+         *      Continue me loops
+         * Continue é uma instrução que interrompe a interação atual do loop e pula para a próxima, ignorando o restante do código dentro do bloco do loop para aquela iteração;
+         * Usando para pular certas iterações quando uma condição específicada é atendida, sem interromper o loop completo;
+         * Continua a execução do loop na próxima iteração, ignorando as instruções após o continue na interação atual;
+         * 
+         *      Nested loops
+         * Nested loops ocorrem quando um loop é colocado dentro de outro loop, permitindo que o loop interno seja executado completamente para cada iteração do loop externo;
+         * Frequentemente usados para manipulação de matrizes, tabelas e para iterar sobre estruturas de dados mais complexas;
+         * Pode ser menos eficientes e mais complexos de enteder, exigindo cuidado para evitar loops infinitos ou comportamento inesperado;
+         * 
          * */
         ;
     }

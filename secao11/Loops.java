@@ -8,7 +8,7 @@ public class Loops {
         // variáveç de inicializacao = i, j, k
         // condicao -> determina até quantas vexes, o loop vai rodar
         // incremento -> a variável vai chegar na condicao
-        for(int i = 1; i <= 5; i++){
+        for (int i = 1; i <= 5; i++) {
             // repetir
             System.out.println("Contador: " + i);
         }
@@ -18,14 +18,14 @@ public class Loops {
 
         // length em strins da o número de letras
         // arrays e strings a primeira posição é o 0
-        //  j -> 0
+        // j -> 0
 
-        for(int i = 0; i < palavra.length(); i++){
+        for (int i = 0; i < palavra.length(); i++) {
             System.out.println("Caractere " + palavra.charAt(i));
         }
 
         // Contagem regressiva
-        for(int i = 5; i > 0; i--){
+        for (int i = 5; i > 0; i--) {
             System.out.println("contagem regressiva " + i);
         }
 
@@ -38,24 +38,65 @@ public class Loops {
 
         int valor = 0;
         while (valor != 7) {
-            valor = (int)(Math.random() * 100);
+            valor = (int) (Math.random() * 100);
             System.out.println("Valor aleatorio " + valor);
         }
 
         // 3 - loop infinito
         // while (true) {
-        //     System.out.println("Infinito");
+        // System.out.println("Infinito");
         // }
 
         // for(int j = 0; j <= 5; j--){
-        //     System.out.println(j);
+        // System.out.println(j);
         // }
 
         // 4 - do while
         int j = 10;
-        do{
+        do {
             System.out.println("O valor de j é: " + j);
             j--;
-        }while(j > 0);
+        } while (j > 0);
+
+        // 5 - break
+        // break pode ser utilizado com qualquer estrutura de loop
+        for (int x = 0; x <= 10; x++) {
+            System.out.println("O valor de x é: " + x);
+
+            if (x == 5) {
+                System.out.println("Parando o loop");
+                break;
+            }
+        }
+
+        // 6 continue
+        for (int x = 10; x > 0; x--) {
+
+            if (x % 2 == 0) {
+                System.out.println("Par");
+                continue;
+            }
+
+            System.out.println("Contador: " + x);
+        }
+
+        // 7 - nested
+        for(int m = 1; m <= 3; m++){
+                System.out.println("Externo");
+            for(int n = 1; n <= 3; n++){
+                System.out.println(n + " x " + n + " x " + (m * n));
+            }
+        }
+
+        // Padrão de estrela
+        for(int o = 1; o <= 10; o++){
+
+            for(int p = 1; p <= o; p++){
+                System.out.print(" * ");
+            }
+
+            System.out.println();
+        }
+
     }
 }
