@@ -1,4 +1,3 @@
-package secao11;
 
 public class Loops {
     public static void main(String[] args) {
