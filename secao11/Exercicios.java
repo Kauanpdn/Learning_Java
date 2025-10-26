@@ -18,6 +18,15 @@ public class Exercicios {
             > Exercício 4: Menu interativo com do-while
             Crie um programa que exiba um menu interativo usando do-while.
             Permitndo ao usuário escolher opções até que decida sair;
+
+            > Exercício 5: Fatorial de um número com for 
+            Desenvolva um programa que calcule
+            o fatorial de um número inteiro positivo usando o loop for;
+
+            > Exercício 6: Contagem de dígitos de um número com while 
+            Crie um programa que conte quantos dígitos há um número inteiro positivo
+            usando um loop while;
+            
         */
 
         Scanner scanner = new Scanner(System.in);
