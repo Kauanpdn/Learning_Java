@@ -423,6 +423,10 @@ public class Documentacao {
          * Frequentemente usados para manipulação de matrizes, tabelas e para iterar sobre estruturas de dados mais complexas;
          * Pode ser menos eficientes e mais complexos de enteder, exigindo cuidado para evitar loops infinitos ou comportamento inesperado;
          * 
+         *      Loops com rótulos
+         * Rótulos(labels) em java são usados para identificar blocos específicos de código;
+         * Como loops. Eles permitem o controle direto sobre qual loop deve ser interrompido ou comtinuada, especialmente em loops aninhados;
+         * Rótulos são utilizados em conjunti coom break e continue para sair ou pular diretamente para loops extrenos, em vez de apenas o loop interno;
          * */
         ;
     }

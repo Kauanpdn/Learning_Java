@@ -86,6 +86,36 @@ public class Exercicios {
         } while (opcao != 3);
 
 
+         // Exercício 5
+        int numFatorial = 12;
+        int fatorial = 1;
+
+        for(int i = 1; i <= numFatorial; i++) {
+
+            fatorial *= i;
+
+        }
+
+        System.out.println("O fatorial de " + numFatorial + " é igual a " + fatorial);
+
+
+          // Exercício 6
+
+        int numeroParaContar = 48484848;
+
+        int contador = 0;
+
+        while(numeroParaContar != 0) {
+
+            numeroParaContar = numeroParaContar / 10;
+
+            System.out.println(numeroParaContar);
+
+            contador++;
+        }
+
+        System.out.println("Numero de dígitos: " + contador);
+
 
         scanner.close();
     }
