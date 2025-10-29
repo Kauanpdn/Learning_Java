@@ -13,6 +13,7 @@ public class SomaDoisNumeros {
         int res = soma(n1, n2);
         System.out.println("O resultado da soma é: " + res);
 
+        sc.close();
         
     }
 
