@@ -427,6 +427,24 @@ public class Documentacao {
          * Rótulos(labels) em java são usados para identificar blocos específicos de código;
          * Como loops. Eles permitem o controle direto sobre qual loop deve ser interrompido ou comtinuada, especialmente em loops aninhados;
          * Rótulos são utilizados em conjunti coom break e continue para sair ou pular diretamente para loops extrenos, em vez de apenas o loop interno;
+         * 
+         *      O que são arrays?
+         * Arrays são estruturas de dados que armazenam múltiplos valores do mesmo tipo em uma única variável;
+         * Arrays podem armazenar tipos primitivos (como int,double,char) ou objetos (como strings ou classes personalizadas)
+         * Os elementos de um array são acessados por índices, que começam em 0;
+         * O tamnho de um arra é definido na sua criação e não pode ser alterado;
+         * Arrays são usados para armazenar listas de dados, como números, nomes ou qualquer coleção de elementos homogênos;
+         * 
+         *      Sintaxe de arrays
+         * Arrays são declarados específico o tipo dos elementos seguindo de colchetes([]);
+         * Arrays podem ser inicializados com valores específico no momento da declaração ou instaciados com um tamanho fixo;
+         * Os elementos de um array são acessados usando índices que começam em 0;
+         * Sintaxe tipo[] nomeArary = new tipo[tamanho], ou tipo[] nomeArray = {valores};
+         * 
+         *      Loops em arrays
+         * Loops são usados para iterar sobre os elementos de um array, acessando e manipulando cada elemento individualmente;
+         * Você pode usar for,while, ou loops aprimorados (for-each) para iterar sobre arrays;
+         * Percorrer todos os elementos, somar valores, encontrar elementos específicos modificar valores;
          * */
         ;
     }
