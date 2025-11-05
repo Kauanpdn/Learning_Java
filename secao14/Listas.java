@@ -46,5 +46,28 @@ public class Listas {
             j++;
         }
         System.out.println("O maior valor é: " + maiorValor);
+
+        // For-each 
+        for(int numero : numeros ){
+            System.out.println(numero);
+        }
+
+        // Concatenar elementos de um array
+        String[] palavras = {"Java ", " é ", " bom "};
+        String frase = " ";
+        for (String palavra : palavras) {
+            frase += palavra;
+        }
+        System.out.println(frase);
+
+        // verificar se valor esta presente em array
+        char[] letras = {'a','e','i','o','u'};
+        char letraProcurada = 'i';
+        
+        for (char letra : letras) {
+            if (letra == letraProcurada) {
+                System.out.println("Encontramos a letra " + letra);
+            }
+        }
     }
 }

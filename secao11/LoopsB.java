@@ -13,7 +13,7 @@ public class LoopsB {
                 }
             }
 
-            System.out.println("i " + i + "j " + k);
+            System.out.println("i " + i + "j " );
         }
 
     }

@@ -445,6 +445,22 @@ public class Documentacao {
          * Loops são usados para iterar sobre os elementos de um array, acessando e manipulando cada elemento individualmente;
          * Você pode usar for,while, ou loops aprimorados (for-each) para iterar sobre arrays;
          * Percorrer todos os elementos, somar valores, encontrar elementos específicos modificar valores;
+         * 
+         *     Loop for-each em Arrays
+         * O loop for-each permite iterar sobre os elementos de uma array de maneira simplificada,sem necessidade de gerenciar índices;
+         * Ideal para percorrer todos os elementos de um array quando não é necessidade modificar o ìndice ou acessar elementos fora da sequência;
+         * Sintaxe: for(tipo varialvel: array){//bloco de código}
+         * 
+         *      For x For-each
+         * Usar for:
+         *      Ideal quando você precisa acessar ou manipular o índice de cada elemento, como em casos onde o ìndice determina a lógica ou o comportamneto do código;
+         *      útil quando a interação precisa pular elementos, ou quando o loop deve ser interropido ou reiniciado em uma posição específica;
+         *      Recomendado quando você precisa modificar diretamente os elementos do array usando o índice;
+         * Usar for-each:
+         *      Ideal para percorrer todos os elemtos de um array ou coleção sem a necessidade de modificar os elementos ou controlar o ìndice;
+         *      Melhor para código que precisa ser limpo e fácil de enteder, onde a manipulação do ìndice não é necessária;
+        //  *      Eviar erros relacionados ao ìndice, como ArrayIndexOutBoundsExecepetion, porque o for-each não expõe o índice diretamente;
+         * 
          * */
         ;
     }
