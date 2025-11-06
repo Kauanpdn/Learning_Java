@@ -459,7 +459,26 @@ public class Documentacao {
          * Usar for-each:
          *      Ideal para percorrer todos os elemtos de um array ou coleção sem a necessidade de modificar os elementos ou controlar o ìndice;
          *      Melhor para código que precisa ser limpo e fácil de enteder, onde a manipulação do ìndice não é necessária;
-        //  *      Eviar erros relacionados ao ìndice, como ArrayIndexOutBoundsExecepetion, porque o for-each não expõe o índice diretamente;
+         *      Eviar erros relacionados ao ìndice, como ArrayIndexOutBoundsExecepetion, porque o for-each não expõe o índice diretamente;
+         * 
+         *      Loops com if
+         * Combinar loops com instruçõçes if permite exxecutar condições específicas dentro de cada iteração do loop;
+         * Usos: filtrar elementos, interromper ou continuar a execução do loop com base em condições lógicas;
+         * Usar if dentro de loops adiciona lógicas condicionais, permintindo decisões dinâmicas em cada interação;
+         * 
+         *      Atualizações de valores em arrays
+         * Atualizar valores em um array significa modificar os elementos do array em ìndices específicos, seja atràves de loops ou diretamente;
+         * Usos: alterar valores com base em cálculos, substituir elementos, ou aplicar operações em todos os elementos do array;
+         * Permite manipular dados armazenados em arrays para refletir mudanças dinâmicas ou realizar operações em massa;
+         * 
+         *      Método toString de arrays
+         * O método toString da classe Arrays é usado para converter um array em uma representação em String, permitindo a exibição direta do conteúdo do array;
+         * Uso comum: facilita a visualização dos elementos de um array em uma única linha útil para debug e saída de dados;
+         * Sintaxe: Arrays.toString(array) converte o array em uma string formatada;
+         * 
+         *      Maneiras de adicionar novos itens a arrays
+         * Arrays em java têm tamanho fixo, portanto, para adicionar novos itens, é necessário criar um novo ou usar estruturas como ArraysList;
+         * Métodos comuns: criar um novo array maior e copiar os elementos, usar ArratList para manipulação dinãmica de elementos;
          * 
          * */
         ;

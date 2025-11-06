@@ -1,4 +1,5 @@
 package secao14;
+import java.util.Arrays;
 
 public class Listas {
     public static void main(String[] args) {
@@ -69,5 +70,69 @@ public class Listas {
                 System.out.println("Encontramos a letra " + letra);
             }
         }
+
+        // 4 - loops com if
+        // filtar e somar numeros pares
+        int somaPares = 0;
+        for(int numero : numeros){
+            if (numero % 2 == 0) {
+                somaPares += numero;
+            }
+        }
+        System.out.println("Soma pares: " + somaPares);
+
+        // Exibit valores que um determinado valor
+        int[] nums = {12,6,18,24,48,5};
+        int limite = 10;
+
+        for(int i = 0; i < nums.length; i++){
+            
+            if (nums[i] > limite) {
+                System.out.println("Número maior encontrado " + nums[i]);
+            }
+        }
+
+        String[] linguagens = {"Java","C","Python","Php"};
+        String linguagemAlvo = "Python";
+
+        for(String linguagem : linguagens){
+            if (linguagemAlvo == linguagem) {
+                System.out.println("Linguagem encontrada! parando o loop");
+                break;
+            }else{
+                System.out.println("Linguagem ainda não encontrada!");
+            }
+        }
+
+        // 5 - atualização de valores
+        for(int i = 0; i < numeros.length; i++ ){
+            numeros[i] *= 2;
+        }
+        System.out.println(numeros[1]);
+
+        for (int numero : numeros) {
+            System.out.println("Números dobrados " + numero);
+        }
+
+        numeros[5] = 1;
+        System.out.println(numeros[5]);
+
+        for (int i = 0; i < frutas.length; i++ ) {
+            if (frutas[i].equalsIgnoreCase("Maçã")) {
+                frutas[i] = "abacate";
+            }
+        }
+        System.out.println(frutas[0]);
+
+        // 6 - método toString 
+        // classe no java, que vão ter métodos utilitatios, o array é uma delas
+        String dadosNumeros = Arrays.toString(numeros);
+        System.out.println(dadosNumeros);
+
+        String dadosFrutas = Arrays.toString(frutas);
+        System.out.println(dadosFrutas);
+        
+
+
     }
 }
