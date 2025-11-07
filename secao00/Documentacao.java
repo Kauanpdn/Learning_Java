@@ -480,6 +480,9 @@ public class Documentacao {
          * Arrays em java têm tamanho fixo, portanto, para adicionar novos itens, é necessário criar um novo ou usar estruturas como ArraysList;
          * Métodos comuns: criar um novo array maior e copiar os elementos, usar ArratList para manipulação dinãmica de elementos;
          * 
+         * 
+         * 
+         * 
          * */
         ;
     }
