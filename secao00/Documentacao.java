@@ -480,8 +480,18 @@ public class Documentacao {
          * Arrays em java têm tamanho fixo, portanto, para adicionar novos itens, é necessário criar um novo ou usar estruturas como ArraysList;
          * Métodos comuns: criar um novo array maior e copiar os elementos, usar ArratList para manipulação dinãmica de elementos;
          * 
+         *      Reference trap
+         * Reference trap ocorre quando duas variáveis apontam para o mesmo objeto na memória, causando modificações não intencionais ao objeto original ao alterar a cópia;
+         * Ao copiar arrays ou onjetos, a nova variável pode compartilhar a referência ao mesmo espação de memória, em vez de criar uma nova instãncia;
+         * Alterações em uma variável refletem na outra, pois referenciam o mesmo objeto;
          * 
+         *    Arrays 2D (matrizes)
+         * Arrays 2D são arrays de arrays, onde cada elemento do array principal é um outro array, permintino a criação de estruturas de grade(matriz);
+         * Um array 2D é criado específicando o número de linhas e colunas;
+         * Os elementos são acessados usando dois índices: um para a linha e outro para a coluna;
+         * Elementos de uma array 2D podem ser atribuidos diretamente ou atr´ves de loops;
          * 
+         *
          * 
          * */
         ;
