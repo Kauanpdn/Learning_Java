@@ -11,6 +11,10 @@ public class Constante {
          * comportamento do compilador.
          */
 
-         
+        final Long velocidadeDaLuz = 299792458L;
+        System.out.println("Velocidade da luz no vácuo: " + velocidadeDaLuz + " m/s");
+
+        // Não dá para alterar o valor da final a IDE acusa erro
+
     }
 }
