@@ -1,4 +1,3 @@
-package exe;
 import java.util.Scanner;
 public class EligibilidadeParaVotar {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exe;
+
 
 public class VariaveisEtipoDeDados {
     public static void main(String[] args) {

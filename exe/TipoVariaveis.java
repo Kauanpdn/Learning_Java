@@ -1,4 +1,4 @@
-package exe;
+
 
 public class TipoVariaveis {
     static int variavelGlobal= 2 ; 

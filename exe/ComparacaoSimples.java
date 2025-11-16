@@ -1,4 +1,3 @@
-package exe;
 import java.util.Scanner;
 
 public class ComparacaoSimples {

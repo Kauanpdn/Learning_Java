@@ -1,4 +1,3 @@
-package exe;
 
 // Crie um programa Java que exiba a mensagem "Olá, Mundo!" no console. Em seguida,
 // modifique o programa para exibir seu nome.

@@ -1,4 +1,3 @@
-package exe;
 
 public class FormatacaoDeSaida {
     public static void main(String[] args) {

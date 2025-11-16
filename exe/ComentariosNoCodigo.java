@@ -1,4 +1,3 @@
-package exe;
 
 public class ComentariosNoCodigo {
     // Comentário de linha - normalmente usado para referência algo em específico

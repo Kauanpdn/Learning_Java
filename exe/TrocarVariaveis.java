@@ -1,4 +1,4 @@
-package exe;
+
 
 public class TrocarVariaveis {
     public static void main(String[] args) {
